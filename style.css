@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    boxe-sizing: border-box;
+    font-family:"poppins",sans-serif;
+}
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(66, 6, 85, 0.856);
+    background-image:  url(download\ images/bb.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+background-color:rgba(0, 0, 0, 0.88);
+width: 40%;
+height: 70%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+border: 1px solid rgba(255, 255,255, 0.3 );
+border-radius: 20px;
+}
+
+h1{
+color: aquamarine;
+font-size: 35px;
+font-weight: 500;
+margin: 50px;
+border-bottom: 1px solid white;
+}
+
+textarea{
+width: 90%;
+height: 200px;
+font-size: 20px;
+border: none;
+outline: none;
+padding: 20px;
+border-radius: 10px;
+resize: none;
+margin-bottom: 30px;
+}
+select{
+    height: 50px;
+    color: #fff;
+    background-color: #575050;
+    padding: 0 20px;
+    outline: none;
+    border: none;
+    border-radius: 35px;
+}
+
+button{
+background-color: #de01cf;
+color: #fff;
+font-size: 16px;
+padding: 10px 20px ;
+margin: 20px;
+border-radius: 35px;
+border: none;
+outline: none;
+display: flex;
+align-items: center;
+ <i class="fa-solid fa-play"></i>
+}
+ button img{
+ width: 16px;
+ margin-right: 10px;
+
+
+ } 
+ 
